@@ -1,0 +1,15 @@
+{
+  "name": "ts-project",
+  "version": "1.0.0",
+  "description": "1. Creamos el archivo .gitignore con la configuración de la página para \"windows, linux, macOS, node\" : (gitignore.io) https://www.toptal.com/developers/gitignore/\r 2. Descargamos el plugin de \"config\" y creamos el archivo de configuración (.editorconfig) con la configuración básica para el proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
