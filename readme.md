@@ -23,3 +23,7 @@ Si estás en Visual Studio Code, puedes activar el analizador de código estáti
     "rootDir": "./src", -> Todo el codigo que necesita en typescript esta en /src
 
 8. Creamos un primer archivo demo con el código dado para provar el inicio de typescript, ya que configuramos el root, tenemos que iniciar en la terminal con: npx tsc
+
+9. Cuando modificas el archivo typescript, puedes configurar para que no tengamos que iniciar siempre el ty con: npx tsc --watch, constantemente va a leer los archivos typescript y van a hacer la transpilación 
+
+10. Para ejecutar algúno de los Js que ha transcribido typescript en la carpeta dist, usamos el siguiente comando: node dist/04-numbers.js
