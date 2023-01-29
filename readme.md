@@ -27,3 +27,23 @@ Si estás en Visual Studio Code, puedes activar el analizador de código estáti
 9. Cuando modificas el archivo typescript, puedes configurar para que no tengamos que iniciar siempre el ty con: npx tsc --watch, constantemente va a leer los archivos typescript y van a hacer la transpilación 
 
 10. Para ejecutar algúno de los Js que ha transcribido typescript en la carpeta dist, usamos el siguiente comando: node dist/04-numbers.js
+
+11. Para revisar si una libreria esta creada con Typescript, podemos revisar en su código base para ver si tiene el archivo tsconfig.json, con vscode podemos revisar:
+  Instalamos la libreria date-fns : npm install date-fns --save
+
+
+12. Si la libreria no tiene typescript por ejemplo: 
+  En lodash, se dice que para traer la libreria es con:
+  Load the full build.
+  var _ = require('lodash');
+  
+  Pero para manejarlo con typescript que es nuestro tipado favorito, vamos a importarlo como lo hacemos con los módulos de typescript
+  
+  import _ from 'lodash';
+
+
+Luego, ya que typescript esta instalado en nuestro proyecto, el tiene el typado para diversas librerias, en este caso y la que nos recomienda incluso vscode es:
+
+
+npm i --save-dev @types/lodash
+```
